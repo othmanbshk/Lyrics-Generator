@@ -10,7 +10,7 @@ import lyricsgenius as genius
 
 file = open("./1PLIKÉ140.txt", "w")  #Change the name of the file you want to write the lyrics on it, depends on the artist(s) you want to work on.
 #You can find your creds by creating an account on : https://genius.com/api-clients
-creds="RqeV2PSIPDxz4hFa64f4AUKA2F1L9ATtlsGntL_b1aFBEVkX4AWK26Tf0dH0wcKg"
+creds="YOUR CREDS HERE"
 #We are excluding everything that could be a remix, a featuring or a live version, because we want to train our script on the artist.
 genius = genius.Genius(creds,
                              skip_non_songs=True, excluded_terms=["(Remix)", "(Live)", "(Featuring)", "(ft.)", "featuring", "ft.", "avec", "with"],
